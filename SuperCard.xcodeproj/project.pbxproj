@@ -14,6 +14,7 @@
 		B0BF95671A4A618500FD5406 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0BF95661A4A618500FD5406 /* Images.xcassets */; };
 		B0BF956A1A4A618500FD5406 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0BF95681A4A618500FD5406 /* LaunchScreen.xib */; };
 		B0BF95761A4A618500FD5406 /* SuperCardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0BF95751A4A618500FD5406 /* SuperCardTests.m */; };
+		B0BF95811A4A622900FD5406 /* PlayingCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0BF95801A4A622900FD5406 /* PlayingCardView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		B0BF956F1A4A618500FD5406 /* SuperCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0BF95741A4A618500FD5406 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0BF95751A4A618500FD5406 /* SuperCardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperCardTests.m; sourceTree = "<group>"; };
+		B0BF957F1A4A622900FD5406 /* PlayingCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardView.h; sourceTree = "<group>"; };
+		B0BF95801A4A622900FD5406 /* PlayingCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 			children = (
 				B0BF955D1A4A618500FD5406 /* AppDelegate.h */,
 				B0BF955E1A4A618500FD5406 /* AppDelegate.m */,
+				B0BF957F1A4A622900FD5406 /* PlayingCardView.h */,
+				B0BF95801A4A622900FD5406 /* PlayingCardView.m */,
 				B0BF95601A4A618500FD5406 /* ViewController.h */,
 				B0BF95611A4A618500FD5406 /* ViewController.m */,
 				B0BF95631A4A618500FD5406 /* Main.storyboard */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0BF95621A4A618500FD5406 /* ViewController.m in Sources */,
+				B0BF95811A4A622900FD5406 /* PlayingCardView.m in Sources */,
 				B0BF955F1A4A618500FD5406 /* AppDelegate.m in Sources */,
 				B0BF955C1A4A618500FD5406 /* main.m in Sources */,
 			);
